@@ -1,0 +1,13 @@
+.header{
+    color:red;
+}
+
+.bold{
+    font-weight:bold ;
+    color: blue;
+}
+
+.italic{
+    font-style: italic;
+    color: yellow;
+}

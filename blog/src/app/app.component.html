@@ -1,0 +1,39 @@
+<!--
+//////////////Interpolation  
+<div>{{"Hello World"}}</div> 
+<div>Hello {{title}}</div>
+<div> {{lineMethod()}} </div>
+<div >{{method1()}}</div>
+
+<p > {{(isHeader) ? "Hello Teachers" : "Hello Student"    }}</p>
+
+ //////////////// Class Binding
+<p [class.header]="isHeader"> Hello Dears</p>
+
+<p [ngClass]="methodClass()">Hello Dears</p>
+
+  //////////////Style  Binding 
+<p [style.fontSize]=" isHeader ? '2rem' :'5rem'"> Mariam Zaher</p>
+
+<p [ngStyle]="methodStyle()"> Mariam Zaher</p>
+
+////////////Event Binding /////////
+<button (click)="toggleMethod()">Toggle</button>
+-->
+
+
+<app-default-bar></app-default-bar>
+
+<div class="container py-5 ">
+  <router-outlet></router-outlet>
+</div>
+
+
+
+
+
+
+
+
+
+
